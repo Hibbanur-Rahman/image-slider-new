@@ -4,6 +4,7 @@ console.log(slides1);
 // slides1.forEach((slide, indx) => {
 //     slide.style.transform = `translateX(${indx * 100}%)`;
 //   });
+setInterval(goNext, 4000);
 var goNext = () => {
     counter++;
     if(counter>=slides1.length)
